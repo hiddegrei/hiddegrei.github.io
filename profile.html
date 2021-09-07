@@ -9,19 +9,27 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <main>
-      <nav>
-        <a class="home__button" href="/">Home</a>
+    <main class="app">
+      <nav class="nav">
+        <a class="nav__button" href="/">Home</a>
+        <a href="/profile.html" class="nav__button active">profile</a>
+        <a class="nav__button" href="/dashboard.html">Dashboard</a>
+        <a class="nav__button" href="/faq.html">FAQ</a>
+        <a class="nav__button" href="/blog.html">Blog</a>
       </nav>
-      <h1 class="title">profile</h1>
 
-      <article>
-        <p class="info">info</p>
-      </article>
+      <div class="profile__inhoud">
+          <img class="profile__inhoud__img"></img>
+
+          <div class="profile__inhoud__textBlock">
+              <h1>Hidde</h1>
+
+          </div>
+      </div>
     </main>
   </body>
 </html>

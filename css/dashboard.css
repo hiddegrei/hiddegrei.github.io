@@ -1,0 +1,38 @@
+.dash__inhoud {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+#courses {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#courses td,
+#courses th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#courses tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#courses tr:hover {
+  background-color: #ddd;
+}
+
+#courses th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
