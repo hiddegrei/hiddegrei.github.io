@@ -36,6 +36,8 @@
   align-items: center;
   place-content: center;
   width: fit-content;
+  padding-left: 5px;
+  padding-right: 5px;
   height: 100%;
   margin: auto auto auto auto;
   text-decoration: none;
@@ -81,13 +83,14 @@
 }
 .profile__inhoud__img {
   display: flex;
-  width: 350px;
-  height: 300px;
+  width: 60%;
+  height: auto;
   margin: auto auto auto auto;
   border: 1px solid black;
 }
 .profile__inhoud__textBlock {
   display: flex;
+  flex-direction: column;
   margin-top: 20px;
   border: 1px solid black;
   width: 100%;
