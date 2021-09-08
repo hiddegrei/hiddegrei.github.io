@@ -1,3 +1,7 @@
+.dash__app {
+  display: flex;
+  flex-direction: column;
+}
 .dash__inhoud {
   display: flex;
   width: 90%;
@@ -35,4 +39,8 @@
   text-align: left;
   background-color: #04aa6d;
   color: white;
+}
+#chart_div {
+  display: flex;
+  margin: auto auto;
 }
